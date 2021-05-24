@@ -1,0 +1,21 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+/* Grids N Flex Containers*/
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr 2fr 2fr;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.heroWrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroWrap2 {
+    
+}
+
+
