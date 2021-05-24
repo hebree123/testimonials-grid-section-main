@@ -1,6 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
-/* Grids N Flex Containers*/
+/* Body CSS */
 body {
   display: -ms-grid;
   display: grid;
@@ -9,6 +9,9 @@ body {
   -ms-grid-rows: 2fr 1fr 1fr 2fr 2fr;
       grid-template-rows: 2fr 1fr 1fr 2fr 2fr;
   font-family: 'Barlow Semi Condensed', sans-serif;
+  grid-gap: 30px;
+  margin: 60px 30px 60px 30px;
+  background-color: #f2f2f2;
 }
 
 .heroWrap {
@@ -19,5 +22,73 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heroWrap2 {
+  line-height: 8px;
+  margin-left: 15px;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+/* Card CSS */
+.daniel {
+  background-color: #7541c8;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.daniel p {
+  color: #cfcfcf;
+}
+
+.jonathan {
+  background-color: #48556a;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.jonathan p {
+  color: #cfcfcf;
+}
+
+.jeanette {
+  background-color: white;
+  color: #48556a;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.jeanette p {
+  color: #cfcfcf;
+}
+
+.patrick {
+  background-color: #19212e;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.patrick p {
+  color: #cfcfcf;
+}
+
+.kira {
+  background-color: white;
+  color: #48556a;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.kira p {
+  color: #cfcfcf;
 }
 /*# sourceMappingURL=style.css.map */

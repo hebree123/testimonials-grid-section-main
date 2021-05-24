@@ -1,21 +1,80 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
-/* Grids N Flex Containers*/
+/* Body CSS */
 body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr 1fr 2fr 2fr;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    grid-gap: 30px;
+    margin: 60px 30px 60px 30px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .heroWrap {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .heroWrap2 {
+    line-height: 8px;
+    margin-left: 15px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+/* Card CSS */
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    p {
+        color: hsl(0, 0%, 81%);
+    }
     
 }
 
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    p{
+        color: hsl(0, 0%, 81%);
+    }
+}
 
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 20px;
+    p{
+        color: hsl(0, 0%, 81%);
+    }
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 20px;
+    p{
+        color: hsl(0, 0%, 81%);
+    }
+}
+
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    padding: 20px;
+    p{
+        color: hsl(0, 0%, 81%);
+    }
+}
