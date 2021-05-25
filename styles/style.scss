@@ -1,11 +1,12 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
 
+
 /* Body CSS */
 body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 550px 330px 280px 510px 600px;
+    grid-template-rows: 530px 310px 260px 510px 580px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     grid-gap: 30px;
     margin: 60px 30px 60px 30px;
@@ -16,16 +17,20 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 11px;
 }
 
 .heroWrap2 {
-    line-height: 8px;
-    margin-left: 15px;
+    line-height: 5px;
+    margin-left: 16px;
 }
 
 .img {
     border-radius: 50%;
+    height: 35px;
+    width: 35px;
 }
+
 
 /* Card CSS */
 .daniel {
@@ -33,6 +38,12 @@ body {
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
     padding: 20px;
+    
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: 0px;
+
     p {
         color: hsl(0, 0%, 81%);
     }
@@ -44,6 +55,7 @@ body {
     color: hsl(0, 0%, 100%);
     border-radius: 10px;
     padding: 20px;
+
     p{
         color: hsl(0, 0%, 81%);
     }
@@ -77,4 +89,25 @@ body {
     p{
         color: hsl(0, 0%, 81%);
     }
+}
+
+.imgDaniel {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 3px solid hsl(263, 100%, 81%);
+}
+
+.imgJonathan {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 3px solid hsl(0, 0%, 81%);
+}
+
+.imgPatrick {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 3px solid hsl(263, 55%, 52%);
 }
