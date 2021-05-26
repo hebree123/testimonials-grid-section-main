@@ -6,7 +6,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 530px 310px 260px 510px 580px;
+    grid-template-rows: auto auto auto auto auto;
     font-family: 'Barlow Semi Condensed', sans-serif;
     grid-gap: 30px;
     margin: 60px 30px 60px 30px;
@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .heroWrap2 {
@@ -41,11 +41,12 @@ body {
     
     background-image: url(/images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position-x: 180px;
+    background-position-x: 185px;
     background-position-y: 0px;
 
     p {
-        color: hsl(0, 0%, 81%);
+        color: hsl(0, 0%, 100%);
+        opacity: 50%;
     }
     
 }
@@ -57,7 +58,8 @@ body {
     padding: 20px;
 
     p{
-        color: hsl(0, 0%, 81%);
+        color: hsl(0, 0%, 100%);
+        opacity: 50%;
     }
 }
 
@@ -67,7 +69,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     p{
-        color: hsl(0, 0%, 81%);
+        color: hsl(217, 19%, 35%);
+        opacity: 50%;
     }
 }
 
@@ -77,7 +80,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     p{
-        color: hsl(0, 0%, 81%);
+        color: hsl(0, 0%, 100%);
+        opacity: 50%;
     }
 }
 
@@ -87,7 +91,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     p{
-        color: hsl(0, 0%, 81%);
+        color: hsl(217, 19%, 35%);
+        opacity: 50%;
     }
 }
 
@@ -110,4 +115,67 @@ body {
     height: 35px;
     width: 35px;
     border: 3px solid hsl(263, 55%, 52%);
+}
+
+.testimonial {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    h2 {
+        margin-top: 2px;
+    }
+
+    p {
+        margin-top: -5px;
+    }
+
+}
+
+/* Media Queries */ 
+@media (min-width: 1000px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .daniel {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+        background-position-x: 370px;
+    }
+    
+    .jonathan {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+
+    }
+
+    .jeanette {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .patrick {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .kira {
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+
 }
